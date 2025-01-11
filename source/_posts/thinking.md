@@ -36,6 +36,16 @@ We have to dare to be ourselves, however frightening or strange that self may pr
 
 
 
+
+
+## 认识世界
+
+经济学的思维方式 - 托马斯·索维尔
+
+
+
+
+
 ## 悟
 
 [[Why Unloved People Hate Themselves](https://youtu.be/4K41tC_d_7k?si=U9WsCHZ8kLZ-D4Pv)]

@@ -112,7 +112,7 @@ $$
 
 Then
 $$
-\overline{V}_{out} = \frac{V_t+V_b}{2}=2V_{in} - \frac{I_{load}\Delta t}{C_p}\cdot \frac{C_p+2C_o}{2C_p+2C_o} \approx \frac{V_t+V_b}{2}=2V_{in} - \frac{I_{load}\Delta t}{C_p}
+\overline{V}_{out} = \frac{V_t+V_b}{2}=2V_{in} - \frac{I_{load}\Delta t}{C_p}\cdot \frac{C_p+2C_o}{2C_p+2C_o} \approx 2V_{in} - \frac{I_{load}\Delta t}{C_p}
 $$
 That is *output voltage droop*
 $$

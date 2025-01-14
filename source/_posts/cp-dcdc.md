@@ -100,6 +100,8 @@ $$
 \Delta V_{out,p2p} = \frac{I_{load}\Delta t}{C_p+C_o} = \frac{I_{load}\Delta t}{C_{tot}}
 $$
 
+where $C_{tot} = C_p+C_o$
+
 with
 $$
 \left\{ \begin{array}{cl}

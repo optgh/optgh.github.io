@@ -87,6 +87,38 @@ R_{out} = \frac{\Delta V_{out}}{I_{load}} = \frac{1}{f_{sw}C_p}
 $$
 ![image-20241015072846141](cp-dcdc/image-20241015072846141.png)
 
+---
+
+### multiphase CP
+
+![multiphaeCP.drawio](cp-dcdc/multiphaeCP.drawio.svg)
+
+$$
+(V_t - V_b) (C_p + C_o) = I_{load}\Delta t
+$$
+
+Therefore *peak-to-peak ripple*
+$$
+\Delta V_{out,p2p} = \frac{I_{load}\Delta t}{C_p+C_o}
+$$
+
+And
+$$
+\left\{ \begin{array}{cl}
+V_b &= 2V_{in} - \frac{I_{load}\Delta t}{C_p} \\
+V_t &= 2V_{in} - \frac{I_{load}\Delta t}{C_p} + \frac{I_{load}\Delta t}{C_p+C_o}
+\end{array} \right.
+$$
+
+Then
+$$
+\overline{V}_{out} = \frac{V_t+V_b}{2}=2V_{in} - \frac{I_{load}\Delta t}{C_p}\cdot \frac{C_p+2C_o}{2C_p+2C_o} \approx \frac{V_t+V_b}{2}=2V_{in} - \frac{I_{load}\Delta t}{C_p}
+$$
+That is *output voltage droop*
+$$
+\Delta V_{out} = \frac{I_{load}\Delta t}{C_p}
+$$
+
 
 ### capacitive charging loss
 

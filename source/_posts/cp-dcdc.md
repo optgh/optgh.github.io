@@ -87,8 +87,6 @@ R_{out} = \frac{\Delta V_{out}}{I_{load}} = \frac{1}{f_{sw}C_p}
 $$
 ![image-20241015072846141](cp-dcdc/image-20241015072846141.png)
 
----
-
 ### multiphase CP
 
 ![multiphaeCP.drawio](cp-dcdc/multiphaeCP.drawio.svg)
@@ -99,10 +97,10 @@ $$
 
 Therefore *peak-to-peak ripple*
 $$
-\Delta V_{out,p2p} = \frac{I_{load}\Delta t}{C_p+C_o}
+\Delta V_{out,p2p} = \frac{I_{load}\Delta t}{C_p+C_o} = \frac{I_{load}\Delta t}{C_{tot}}
 $$
 
-And
+with
 $$
 \left\{ \begin{array}{cl}
 V_b &= 2V_{in} - \frac{I_{load}\Delta t}{C_p} \\
@@ -118,23 +116,6 @@ That is *output voltage droop*
 $$
 \Delta V_{out} = \frac{I_{load}\Delta t}{C_p}
 $$
-
-
-### capacitive charging loss
-
-increase with switching frequency
-
-
-
-##  SSL & FSL
-
-> **slow-switching limit (SSL)**, f**ast-switching limit (FSL)**
-
-
-
-
-
-
 
 
 

@@ -33,9 +33,11 @@ mathjax: true
 
 ## Sampling Front-End (SFE) Pulse Response
 
-*TODO* &#128197;
+
 
 ![image-20250107234500537](link/image-20250107234500537.png)
+
+sweep the setup time between ideal pulse input and clock, sample the output of SFE at falling edge
 
 
 
